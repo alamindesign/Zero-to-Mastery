@@ -1,21 +1,32 @@
-var user = {
-    name: "Jhon",
-    age: 34,
-    hobby: "Soccer",
-    isMarried: false,
-    spells: ["abrakadraba","shazam","boo"],
-    shout: function(){
-        console.log("AHHHHHHH!"); 
-    }
-};
-console.log(user);
-var list = [
+let user = {
+    username: "Muhammad",
+    password: "12345"
+}
+let database = [
     {
-        username: "andy",
-        password: "secre"
+        username: "Muhammad",
+        password: "12345",
     },
     {
-        username:"jess",
+        username: "Shaheen",
         password: "123"
+    },
+    {
+        username: "hossain",
+        password: "234"
+    }
+];
+let newsfeed = [
+    {
+        username: "Muhammad",
+        timeline: "Hello from Bangladesh",
+    },
+    {
+        username: "Shaheen",
+        timeline: "Hello form canada.",
+    },
+    {
+        username: "hossain",
+        timeline: "Hello from Australia.",
     }
 ]
