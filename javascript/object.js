@@ -1,7 +1,3 @@
-let user = {
-    username: "Muhammad",
-    password: "12345"
-}
 let database = [
     {
         username: "Muhammad",
@@ -30,3 +26,15 @@ let newsfeed = [
         timeline: "Hello from Australia.",
     }
 ]
+
+var userNamePrompt = prompt("What's your username?");
+var passWordPrompt = prompt("What's your password?");
+
+function singIn(user, pass){
+    if(user === database[0].username && pass === database[0].password){
+        console.log(newsfeed);
+    }else{
+        alert("Sorry, wrong username and password!");
+    }
+}
+singIn(userNamePrompt,passWordPrompt); 
