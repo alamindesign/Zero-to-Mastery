@@ -1,8 +1,11 @@
-let input = document.getElementById("user-input").value;
+let input = document.getElementById("user-input");
 let button = document.getElementById("enter");
 let ul = document.querySelector("ul");
 button.addEventListener("click",function(){
-   var li = document.createElement("li");
-   li.appendChild(document.createTextNode("testing.."));
-   ul.appendChild(li);
+   if(input.value > '0'){
+      var li = document.createElement("li");
+      li.appendChild(document.createTextNode(input.value));
+      ul.appendChild(li);
+      input.value = null;
+   }
 })
