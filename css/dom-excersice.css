@@ -1,0 +1,12 @@
+.done{
+    color: rgb(137, 137, 137);
+    text-decoration: line-through;
+    list-style: none;
+    
+}
+h2{
+    color: blueviolet;
+}
+main > ul > li{
+    list-style: none;
+}
