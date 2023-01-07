@@ -2,10 +2,11 @@ let input = document.getElementById("userinput");
 let btn = document.getElementById("enter");
 let ul = document.querySelector("ul");
 let li = document.querySelector("li");
-li.classList.toggle = "done";
+li.className = "done";
 function inputLength(){
     return input.value.length;
 }
+
 function printListItem(){
     var li = document.createElement("li");
     li.appendChild(document.createTextNode(input.value));
